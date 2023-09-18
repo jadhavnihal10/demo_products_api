@@ -12,7 +12,7 @@ async function StartServer() {
 
     const producer = await createSender();
 
-    const port = PORT || 3000;
+    const port = PORT || 1010;
 
     expressApp(app, producer);
 
